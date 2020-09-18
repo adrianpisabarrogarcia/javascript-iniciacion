@@ -8,4 +8,4 @@ Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicac
     
 ---
 1. Tema 1
-2. [Tema 2](https://jnjsite.com/wp-content/uploads/2020/04/256x256xJavascript-logo-1024x1024.png.pagespeed.ic.n0RJyXyL1j.png)
+2. [Tema 2](https://github.com/adrianpisabarrogarcia/javascript-iniciacion/tree/master/Tema%202)
