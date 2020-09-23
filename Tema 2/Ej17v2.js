@@ -1,7 +1,8 @@
 "use strict"
 var sueldos = []
 var suma = 0
-for (var i = 0; i<5; i++){
+
+for (let i = 0; i<5; i++){
     let sueldoOperario = parseInt(prompt("Inserta el sueldo de un operario: "))
     sueldos.push(sueldoOperario)
 }

@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="79bfcf85-fa41-4870-822f-55d40e25b482" name="Default Changelist" comment="" />
+    <list default="true" id="79bfcf85-fa41-4870-822f-55d40e25b482" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ej25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ej17v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ej17v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ej20.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ej20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ej21.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ej21.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,21 +75,53 @@
       <updated>1600330106671</updated>
       <workItem from="1600330108063" duration="4966000" />
       <workItem from="1600421724798" duration="7471000" />
-      <workItem from="1600460458651" duration="147000" />
+      <workItem from="1600460458651" duration="404000" />
+      <workItem from="1600462279528" duration="131000" />
+      <workItem from="1600614971379" duration="327000" />
+      <workItem from="1600631864407" duration="55000" />
+      <workItem from="1600632001575" duration="20000" />
+      <workItem from="1600669290178" duration="1159000" />
+      <workItem from="1600680996058" duration="3069000" />
+      <workItem from="1600700520106" duration="343000" />
+      <workItem from="1600701729696" duration="7131000" />
+      <workItem from="1600714191784" duration="198000" />
+      <workItem from="1600714948698" duration="2812000" />
+      <workItem from="1600767502969" duration="4498000" />
+      <workItem from="1600776116537" duration="218000" />
+      <workItem from="1600812998528" duration="38000" />
+      <workItem from="1600843081267" duration="358000" />
+      <workItem from="1600886971107" duration="3436000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="745" y="210" key="SettingsEditor" timestamp="1600330665643">
       <screen x="31" y="23" width="1761" height="1097" />
     </state>
     <state x="745" y="210" key="SettingsEditor/31.23.1761.1097@31.23.1761.1097" timestamp="1600330665643" />
-    <state x="909" y="266" key="run.anything.popup" timestamp="1600332848141">
+    <state x="909" y="266" width="670" height="675" key="run.anything.popup" timestamp="1600462401900">
       <screen x="31" y="23" width="1761" height="1097" />
     </state>
-    <state x="909" y="266" key="run.anything.popup/31.23.1761.1097@31.23.1761.1097" timestamp="1600332848141" />
+    <state x="909" y="266" width="670" height="675" key="run.anything.popup/31.23.1761.1097@31.23.1761.1097" timestamp="1600462401900" />
+    <state x="2386" y="259" width="731" height="652" key="search.everywhere.popup" timestamp="1600717441356">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2386" y="259" width="731" height="652" key="search.everywhere.popup/31.23.1761.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600717441356" />
+    <state x="576" y="268" width="670" height="676" key="search.everywhere.popup/31.23.1761.1097@31.23.1761.1097" timestamp="1600462404854" />
   </component>
 </project>
