@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej2</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        table, tr, th{
+            border: 1px solid black;
+        }
+        #tablameses, tr#tablameses, th#tablameses{
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendario-agenda</h1>
+    <br>
+    <table>
+        <tr>
+            <th>Mes XXXX Año XXXX<br>
+                <table id="tablameses">
+                    <tr>
+                        <th>
+                            Lun
+                        </th>
+                        <th>
+                            Mar
+                        </th>
+                        <th>
+                            Mie
+                        </th>
+                        <th>
+                            Jue
+                        </th>
+                        <th>
+                            Vie
+                        </th>
+                        <th>
+                            Sáb
+                        </th>
+                        <th>
+                            Dom
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+                            <input type="button" id="1" value="1" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="2" value="2" onclick="click()" class="dia">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="button" id="3" value="3" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="4" value="4" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="5" value="5" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="6" value="6" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="7" value="7" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="8" value="8" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="9" value="9" onclick="click()" class="dia">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="button" id="10" value="10" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="11" value="11" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="12" value="12" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="13" value="13" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="14" value="14" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="15" value="15" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="16" value="16" onclick="click()" class="dia">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="button" id="17" value="17" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="18" value="18" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="19" value="19" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="20" value="20" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="21" value="21" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="22" value="22" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="23" value="23" onclick="click()" class="dia">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="button" id="24" value="24" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="25" value="25" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="26" value="26" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="27" value="27" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="28" value="28" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="29" value="29" onclick="click()" class="dia">
+                        </th>
+                        <th>
+                            <input type="button" id="30" value="30" onclick="click()" class="dia">
+                        </th>
+                    </tr>
+                </table>
+
+
+
+            </th>
+            <th>
+                <input type="text" value="" placeholder="Escribe aquí la anotación" id="anotacion"><br>
+                <input type="submit" value="Guardar anotación" id="guardar" onclick="introducirTexto()">
+                <input type="button" value="Visualizar anotaciones" id="visualizar" onclick="visualizar()">
+            </th>
+        </tr>
+
+    </table>
+
+
+    <script src="Ej2.js"></script>
+</body>
+</html>
