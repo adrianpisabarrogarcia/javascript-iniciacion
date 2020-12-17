@@ -7,27 +7,17 @@ for (let i = 0; i < anotaciones.length; i++) {
 }
 
 
-//Obtengo el numero del día
+//Obtengo todos los numeros del mes
 let clic = document.getElementsByClassName("dia")
 for (let i = 0; i < clic.length; i++) {
     clic[i].addEventListener("click",introducirTexto)
 }
 
 function introducirTexto(event) {
-    //Obtengo el texto de las anotaciones
     let texto = document.getElementById("anotacion").value
-    //Accedo a la posición idonea del array y en la última columna hago un push de la anotación
-    let posicion = 0
-    for (let i = 0; i < anotaciones.length; i++) {
-        for (let j = 0; j < anotaciones[i].length; j++) {
-            posicion = j
-        }
-    }
-    //anotaciones[event.target.value][posicion] = texto
     alert(event.target.value)
-
     anotaciones[event.target.value-1].push(texto)
-    alert("Añadido 💪: "+texto+ " \nEl dia 📅:"+parseInt(clic))
+    alert("Añadido 💪: "+texto+ " \n")
 
 }
 

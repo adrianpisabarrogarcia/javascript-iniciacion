@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <p><label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <p><label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu Apellido"/>
+        </p>
+        <p>
+            <label for="correo">Correo electronico:</label>
+            <input type="email" name="correo" id="correo" placeholder="Escribe tu Correo"/>
+        </p>
+        <p>
+            <label for="poblacion">Poblacion:</label>
+            <input type="text" name="poblacion" id="poblacion" placeholder="Escribe tu Poblacion"/>
+        </p>
+        <p>
+            <label for="provincia">Provincia:</label>
+            <input type="text" name="provincia" id="provincia" placeholder="Escribe tu Provincia"/>
+        </p>
+        <p>Edad:</p>
+        <p>
+            <label><input type="radio" name="edad" value="0-20"> 0-20</label>
+        </p>
+        <p>
+            <label><input type="radio" name="edad" value="20-40"> 20-40</label>
+        </p>        <p>
+            <label><input type="radio" name="edad" value="40-60"> 40-60</label>
+        </p>        <p>
+            <label><input type="radio" name="edad" value="60-100"> 60-100</label>
+        </p>
+        <p>¿Como nos has conocido?</p>
+        <p>
+            <label><input type="checkbox" name="razon" value="amigo"> A traves de un amigo</label>
+        </p>
+        <p>
+            <label><input type="checkbox" name="razon" value="buscador"> A traves de un buscador</label>
+        </p>        <p>
+            <label><input type="checkbox" name="razon" value="red"> Navegando por la red</label>
+        </p>        <p>
+            <label><input type="checkbox" name="razon" value="otros"> Otros</label>
+        </p>
+        <p>
+            <button onclick="validar()">Enviar formulario</button>
+            <button onclick="borrar()">Borrar</button>
+        </p>
+</form>
+<script src="ejer4.js"></script>
+</body>
+</html>

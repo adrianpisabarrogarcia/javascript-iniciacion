@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej4 Formulario</title>
+</head>
+<body>
+
+<h1>Persona</h1>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos"><br>
+
+    <label for="correo">Correo Electrónico</label>
+    <input type="email" name="correo" id="correo" placeholder="@"><br>
+
+    <label for="poblacion">Población</label>
+    <select id="poblacion" name="poblacion">
+        <optgroup label="Álava">
+            <option value="vitoria">Vitoria</option>
+            <option value="llodio">Llodio</option>
+        </optgroup>
+        <optgroup label="Vizcaya">
+            <option value="bilbao">Bilbao</option>
+            <option value="getxo">Getxo</option>
+        </optgroup>
+        <optgroup label="Guipúzcoa">
+            <option value="san-sebastian">San Sebastián</option>
+            <option value="tolosa">Tolosa</option>
+            <option value="hernani">Hernani</option>
+            <option value="zarautz">Zarautz</option>
+        </optgroup>
+    </select><br>
+
+    <label>Edad</label><br>
+    <input type="radio" name="edad" value="cero-veinte">0-20<br>
+    <input type="radio" name="edad" value="veinte-cuarenta">20-40<br>
+    <input type="radio" name="edad" value="cuarenta-sesenta">40-60<br>
+    <input type="radio" name="edad" value="sesenta-cien">60-100<br>
+
+    <label>¿Cómo nos has conocido?</label><br>
+    <input type="checkbox" name="conocido" value="amigo">A través de un amigo<br>
+    <input type="checkbox" name="conocido" value="buscador">A través de un buscador<br>
+    <input type="checkbox" name="conocido" value="red">Navegando por la red<br>
+    <input type="checkbox" name="conocido" value="otros">Otros<br>
+    <br>
+
+    <button value="Enviar formulario" id="enviar" onclick="introducirPersona()">Enviar formulario</button>
+    <button value="Borrar formulario" id="borrar" onclick="borrarDatos()">Borrar formulario</button>
+    <button value="Enviar formulario" id="mostar" onclick="mostrarPersonas()">Mostrar todas las personas</button>
+
+    <p id="todaspersonas"></p>
+
+
+
+<script src="index.js"></script>
+<noscript>El navegador no soporta JS 🤷‍</noscript>
+
+</body>
+
+</html>

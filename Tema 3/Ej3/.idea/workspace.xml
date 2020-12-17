@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="174f2d23-83d1-4e50-8928-7bc1369e4de8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tema 2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tema 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tema 2/Ej29.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 2/Ej29.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ej2/Ej2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ej2/Ej2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ej2/Ej2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Ej2/Ej2.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1j4D6btjiMcUx9JmZzeCl2CcdIi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Ej3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="174f2d23-83d1-4e50-8928-7bc1369e4de8" name="Default Changelist" comment="" />
+      <created>1603054296958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603054296958</updated>
+      <workItem from="1603054298603" duration="84000" />
+      <workItem from="1603054393886" duration="18000" />
+      <workItem from="1603054578172" duration="199000" />
+      <workItem from="1603056430169" duration="83000" />
+      <workItem from="1603082756212" duration="600000" />
+      <workItem from="1603104636163" duration="613000" />
+      <workItem from="1603107990191" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="376" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603054596990">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state x="376" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/31.23.1761.1097@31.23.1761.1097" timestamp="1603054596990" />
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603056512644">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512644" />
+    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603056512643">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.center/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512643" />
+    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603056512643">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.left/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512643" />
+    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603056512644">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.right/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512644" />
+    <state width="1379" height="271" key="GridCell.Tab.1.bottom" timestamp="1603056512646">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.1.bottom/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512646" />
+    <state width="1379" height="271" key="GridCell.Tab.1.center" timestamp="1603056512645">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.1.center/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512645" />
+    <state width="1379" height="271" key="GridCell.Tab.1.left" timestamp="1603056512645">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.1.left/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512645" />
+    <state width="1379" height="271" key="GridCell.Tab.1.right" timestamp="1603056512645">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.1.right/31.23.1761.1097@31.23.1761.1097" timestamp="1603056512645" />
+    <state x="413" y="210" key="SettingsEditor" timestamp="1603054730805">
+      <screen x="31" y="23" width="1761" height="1097" />
+    </state>
+    <state x="413" y="210" key="SettingsEditor/31.23.1761.1097@31.23.1761.1097" timestamp="1603054730805" />
+  </component>
+</project>

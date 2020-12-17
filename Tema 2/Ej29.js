@@ -19,7 +19,6 @@ function Persona(dni, numSeguridadSocial, nombre, apellidos, fechaNacimiento, ed
     this.cumplirAnnos = function (){
         this.edad = edad + 1
     }
-
 }
 
 var arrayPersonas = []
@@ -52,17 +51,7 @@ for (let i = 0; i < arrayPersonas.length; i++) {
     alert(arrayPersonas.values(estadoCivil))
 }
 
-//Numero de personas casadas
-/*
-var personasCasadas = 0
-for (let i = 0; i < arrayPersonas.length; i++) {
-    //Aquí hay un error
-    if (arrayPersonas.==true){
-        contador += 1
-    }
-}
 
- */
 var personasCasadas = function (personasCasadasArray){
     let contador = 0
     for (let i = 0; i < personasCasadasArray.length; i++) {

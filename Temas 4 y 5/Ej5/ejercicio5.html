@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <style>
+        div{
+            background-color: antiquewhite;
+            width: 80%;
+            margin: 0 auto;
+            padding: 30px;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h2>Lista de la compra:</h2>
+    <input type="text" id="producto">
+    <button type="submit" onclick="annadirCesta()">Añadir a la compra</button>
+
+    <ul id="lista">
+
+    </ul>
+    <br><br>
+    <i>Nota: Puedes eliminar elementos de la lista haciendo doble clic sobre ellos</i>
+    <br><br>
+    <button type="submit" onclick="resetearCookies()">Resetea lista y bórrala de la memoria</button>
+</div>
+
+
+<script src="ejercicio5.js"></script>
+</body>
+</html>

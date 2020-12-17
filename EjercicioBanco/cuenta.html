@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Kutxabank</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .movimientos, .filtrar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="container" onload="crearMovimientos()">
+
+<h1>Acceso a tus cuentas</h1>
+<div class="form-group">
+    <label for="exampleFormControlSelect1">Selecciona tu cuenta:</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+
+        <option value="1" selected>5524 4308 56 0551326602</option>
+        <option value="2">1888 6796 99 5484575641</option>
+    </select>
+</div>
+<div class="filtrar">
+    Filtrar movimientos por:
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="ordenado" id="exampleRadios1" value="1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+            Ordenado por Fecha
+        </label><br>
+        <input class="form-check-input" type="radio" name="ordenado" id="exampleRadios2" value="2">
+        <label class="form-check-label" for="exampleRadios2">
+            Ordenado por Importe
+        </label>
+    </div>
+</div>
+<br>
+<div class="movimientos">
+    Movimientos:
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Concepto</th>
+            <th scope="col">Importe</th>
+            <th scope="col">Saldo</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+</div>
+
+<div class="imprimir">
+
+</div>
+
+<script src="ClassMovimientos.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="cuenta.js"></script>
+</body>
+</html>

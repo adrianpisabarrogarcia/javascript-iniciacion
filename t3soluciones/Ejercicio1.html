@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario"/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="contraseña" id="pass" placeholder="Escribe tu Contraseña"/>
+        </p>
+        <p>
+            <button onclick="validar()">Entrar</button>
+            <button onclick="salir()">Salir</button>
+        </p>
+        </fieldset>
+    </form>
+    <script>
+        var usuarios=[{nombre: "a", con:"12345Abcde"},{nombre: "b", con:"23456Abcde"}];
+
+        function validar() {
+            try {
+                // Recoger datos
+                let usuario = document.getElementById("usuario").value;
+                let pas = document.getElementById("pass").value;
+
+                // Validar
+                if (usuario == "" || pas == "")
+                        throw "Datos de entrada obligatorios";
+                let er = new RegExp("^[A-Za-z0-9]{8,}$");
+                if (!er.test(pas))
+                    throw "Contraseña no valida";
+
+               // Buscar en la "base de datos"
+                let u = usuarios.find(dato => dato.nombre == usuario && dato.con == pas);
+               if ( u == undefined)
+                    alert("Usuario y/o contraseña no valido");
+               else
+                   alert("Bienvenidx");
+            }
+            catch(e){
+                alert(e);
+            }
+        }
+
+        function salir(){
+            alert("Adios");
+        }
+    </script>    
+
+</body>
+</html>
