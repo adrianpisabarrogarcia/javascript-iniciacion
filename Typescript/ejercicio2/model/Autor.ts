@@ -5,7 +5,7 @@ class Autor{
     private _nombre:string
     private _nacionalidad:string;
     private _fechaNacimiento:Date;
-    private _libro:Libro
+    private _libro:Libro   //he decidido no meter finalmente el libro
 
 
     constructor(nombre: string, nacionalidad: string, fechaNacimiento: Date, libro: Libro) {
@@ -14,7 +14,6 @@ class Autor{
         this._fechaNacimiento = fechaNacimiento;
         this._libro = libro;
     }
-
 
     get nombre(): string {
         return this._nombre;
@@ -47,4 +46,6 @@ class Autor{
     set libro(value: Libro) {
         this._libro = value;
     }
+
+
 }

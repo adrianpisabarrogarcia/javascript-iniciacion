@@ -13,17 +13,17 @@ class Libro{
     private _tipo:TipoLibro
     private _editorial:string
     private _anyo:number
-    private _copias:Array<Copia>
-    private _autores:Array<Autor>
+    //private _copias:Array<Copia>
+    //private _autores:Array<Autor>
 
 
-    constructor(titulo: string, tipo: TipoLibro, editorial: string, anyo: number, copias: Array<Copia>, autores: Array<Autor>) {
+    constructor(titulo: string, tipo: TipoLibro, editorial: string, anyo: number/*, copias: Array<Copia>, autores: Array<Autor>*/) {
         this._titulo = titulo;
         this._tipo = tipo;
         this._editorial = editorial;
         this._anyo = anyo;
-        this._copias = copias;
-        this._autores = autores;
+        //this._copias = copias;
+        //this._autores = autores;
     }
 
 
@@ -58,7 +58,7 @@ class Libro{
     set anyo(value: number) {
         this._anyo = value;
     }
-
+    /*
     get copias(): Array<Copia> {
         return this._copias;
     }
@@ -67,6 +67,9 @@ class Libro{
         this._copias = value;
     }
 
+     */
+    /*
+
     get autores(): Array<Autor> {
         return this._autores;
     }
@@ -74,4 +77,6 @@ class Libro{
     set autores(value: Array<Autor>) {
         this._autores = value;
     }
+
+     */
 }

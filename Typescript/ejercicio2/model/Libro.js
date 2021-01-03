@@ -8,13 +8,15 @@ var TipoLibro;
     TipoLibro[TipoLibro["ensayo"] = 3] = "ensayo";
 })(TipoLibro || (TipoLibro = {}));
 var Libro = /** @class */ (function () {
-    function Libro(titulo, tipo, editorial, anyo, copias, autores) {
+    //private _copias:Array<Copia>
+    //private _autores:Array<Autor>
+    function Libro(titulo, tipo, editorial, anyo /*, copias: Array<Copia>, autores: Array<Autor>*/) {
         this._titulo = titulo;
         this._tipo = tipo;
         this._editorial = editorial;
         this._anyo = anyo;
-        this._copias = copias;
-        this._autores = autores;
+        //this._copias = copias;
+        //this._autores = autores;
     }
     Object.defineProperty(Libro.prototype, "titulo", {
         get: function () {
@@ -52,26 +54,6 @@ var Libro = /** @class */ (function () {
         },
         set: function (value) {
             this._anyo = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Libro.prototype, "copias", {
-        get: function () {
-            return this._copias;
-        },
-        set: function (value) {
-            this._copias = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Libro.prototype, "autores", {
-        get: function () {
-            return this._autores;
-        },
-        set: function (value) {
-            this._autores = value;
         },
         enumerable: false,
         configurable: true

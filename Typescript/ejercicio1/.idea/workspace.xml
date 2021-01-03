@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3845d70-78dd-418a-91e6-f3dd5451adae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Tema 3/Ej3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persona.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio1.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../node2/HolaMundo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 2/Ej29.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 2/Ej29.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 3/Ej2/Ej2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 3/Ej2/Ej2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tema 3/Ej2/Ej2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema 3/Ej2/Ej2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona.html" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona.js" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio1.js" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,8 @@
       <updated>1608028812790</updated>
       <workItem from="1608028814463" duration="8500000" />
       <workItem from="1608143086435" duration="1993000" />
+      <workItem from="1608196420827" duration="7451000" />
+      <workItem from="1608535879789" duration="455000" />
     </task>
     <servers />
   </component>
