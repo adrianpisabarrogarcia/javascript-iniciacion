@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 1</title>
+
+</head>
+<body>
+<script src="./WebComponnt.js"></script>
+
+<mi-parrafo></mi-parrafo>
+<h1>Gestión de proyectos</h1>
+<form>
+    Usuario: <input type="text" id="usuario" name="usuario" required><br>
+    Contraseña: <input type="password" id="password" name="password" required><br>
+</form>
+<button id="alta" onclick="alta()">Alta</button>
+<button id="consulta" onclick="consulta()">Consulta</button>
+<br><br>
+<div class="color">
+    Escribe en inglés el color que quieras que aparezca como fondo de la aplicación: <br>
+    <form>
+        <input type="text" id="color">
+    </form>
+    <button id="cambiocolor" onclick="cambioColor()">Aceptar</button>
+</div>
+
+<br><br>
+<div class="listado-proyectos">
+    <h1>Listado de proyectos</h1>
+    <ul>
+        <div class="proyectos"></div>
+    </ul>
+    Nombre proyecto a añadir: <input type="text" id="proyectonombre"><br>
+    <button id="annadir" onclick="annadir()">Añadir</button>
+    <button id="borrar" onclick="borrar()">Borrar</button>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="./Persona.js"></script>
+<script src="./Proyecto.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

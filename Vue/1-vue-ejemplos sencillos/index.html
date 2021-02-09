@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VUE</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<h1>VUE BÁSICO</h1>
+<ol>
+    <li>
+        <b>Ejemplo de reactividad</b>
+        <div id="div-1" v-cloak>
+            <p>{{saludo}}</p>
+        </div>
+    </li>
+    <li>
+        <b>Ejmeplo de renderizado condicional</b>
+        <div id="div-2" v-cloak>
+            <button v-on:click="estado">Click</button>
+            <p v-if="showIF">Encedido IF</p>
+            <p v-else>Apagado IF</p>
+            <p v-show="showSHOW">Encedido SHOW</p>
+            <p v-show="!showSHOW">Apagado SHOW</p>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de listas</b>
+        <div id="div-3" v-cloak>
+            <ul>
+                <li v-for="(dia,index,c) in semana" v-bind:key="index">
+                    {{index}} - {{dia}}
+                </li>
+            </ul>
+            <ul>
+                <li v-for="(dia, index, c) in semanaComplex" v-bind:key="index">
+                    {{index}} - {{dia.dia}} : {{dia.abrv}}
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de eventos</b>
+        <div id="div-4" v-cloak>
+            <input type="text" placeholder="Tarea" v-model="newTarea" v-on:keyup.enter="addTarea">
+            <button v-on:click="addTarea">Añadir tarea</button>
+            <ul>
+                <li v-for="(tarea,index,x) in tareas" v-bind:key="index">
+                    {{index}} - {{tarea}}
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de propiedades computadas</b>
+        <div id="div-5" v-cloak>
+            <div><input type="text" v-model="mensaje"></div>
+            <div>Mensaje original.....<label v-text="mensaje"></label></div>
+            <div>Mensaje invertido.....<label v-text="reverse"></label></div>
+            <div>Mensaje mayusculas.....<label v-text="mayusculas"></label></div>
+            <div>Posición cifrado Cesar<input type="number" v-model="offsetCesar" number></div>
+            <div>Mensaje cifrado Cesar [offset Cesar: {{offsetCesar}}].....<label v-text="cifradoCesar"></label>{{encriptadoCesar}}</div>
+            <div>
+                <p>
+                    Frutas<br>
+                    <button v-on:click="orderBy('+','precio')">Asc Precio</button>
+                    <button v-on:click="orderBy('-','precio')">Desc Precio</button>
+                    <button v-on:click="orderBy('+','nombre')">Asc Nombre</button>
+                    <button v-on:click="orderBy('-','nombre')">Desc Nombre</button>
+                    <button v-on:click="orderBy('+','peso')">Asc Peso</button>
+                    <button v-on:click="orderBy('-','peso')">Desc Peso</button>
+                </p>
+                <ul>
+                    <li v-for="(value, index, c) in precioFruta" v-bind:key="index">
+                        {{index}} - {{value}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de filtros</b>
+        <div id="div-6" v-cloak>
+            <input type="range" min="0" max="10" v-model="puntuacion">
+            <ul>
+                <li v-for="(pelicula, index, c) in mostrarMinimaPuntuacion" v-bind:key="index">
+                    {{index}} - {{pelicula}}
+                </li>
+            </ul>
+            <input type="text" v-model="buscarComunidad" placeholder="Nombre de comunidad">
+            <ul>
+                <li v-for="(c, index, k) in filtroComunidades" v-bind:key="index">
+                    ({{c}})..... Reverse .....{{c | Reverse }}<br> ({{c}})..... Mayusculas .....{{c | Mayusculas }}
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de ciclo de vida VUE</b>
+        <div id="div-7" v-cloak>
+            Mira en la consola del navegador para comprobar el ciclo de vida de VUE
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de Data Binding en clases y estilos</b>
+        <div id="div-8" v-cloak>
+            <span>Usuarios contraidos</span>
+            <ul>
+                <li v-for="(user, index, c) in usuariosContraidos" v-bind:key="index">
+                    {{user.id}}
+                </li>
+            </ul>
+            <ul>
+                <li v-for="(user, index, c) in usuarios" v-bind:key="index">
+                    <b>INDEX:</b>{{index+1}}<button v-on:click="contraer(user)">+</button>
+                    <ul v-bind:class="{contraer:user.contraer}">
+                        <li><b>ID:</b>{{user.id}}</li>
+                        <li><b>NAME:</b>{{user.name}}</li>
+                        <li><b>USERNAME:</b>{{user.username}}</li>
+                        <li><b>EMAIL:</b>{{user.email}}</li>
+                        <li>
+                            <b>ADDRESS</b>
+                            <ul>
+                                <li><b>STREET:</b>{{user.address.street}}</li>
+                                <li><b>SUITE:</b>{{user.address.suite}}</li>
+                                <li><b>CITY:</b>{{user.address.city}}</li>
+                                <li><b>ZIPCODE:</b>{{user.address.zipcode}}</li>
+                                <li><b>LAT:</b>{{user.address.geo.lat}}</li>
+                                <li><b>LNG:</b>{{user.address.geo.lng}}</li>
+                            </ul>
+                        </li>
+                        <li><b>PHONE:</b>{{user.phone}}</li>
+                        <li><b>WEBSITE:</b>{{user.website}}</li>
+                        <ul>
+                            <b>COMPANY</b>
+                            <ul>
+                                <li><b>NAME:</b>{{user.company.name}}</li>
+                            </ul>
+                            <li><b>CATCHPHRASE:</b>{{user.company.catchPhrase}}</li>
+                            <li><b>BS:</b>{{user.company.bs}}</li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de transiciones</b>
+        <div id="div-9" v-cloak>
+            <button v-on:click="show">Mostar.. {{mostrar}}</button>
+            <transition name="zoom" mode="out-in">
+                <section v-if="mostrar" key="IF">IF</section>
+                <section v-else key="ELSE">ELSE</section>
+            </transition>
+
+            <transition name="fade">
+                <section v-if="mostrar">TRANSITION</section>
+            </transition>
+
+            <transition name="zoom">
+                <section v-if="mostrar">ANIMATION</section>
+            </transition>
+
+            <transition name="zoom" appear>
+                <section v-if="mostrar">APPEAR</section>
+            </transition>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de AJAX Vue-resource</b>
+        <div id="div-10" v-cloak>
+            <div v-if="personas.length">
+                <img v-bind:title="person.name.first" v-bind:alt="person.name.first" v-for="(person,index,c) in personas" v-bind:src="person.picture.thumbnail" v-bind:key="index">
+            </div>
+            <div v-else class="loading">
+                <div></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <b>Ejemplo de AXIOS ajax</b>
+        <div id="div-11" v-cloak>
+            <div v-if="personas.length">
+                <img v-bind:title="person.name.first" v-bind:alt="person.name.first" v-for="(person,index,c) in personas" v-bind:src="person.picture.thumbnail" v-bind:key="index">
+            </div>
+            <div v-else class="loading">
+                <div></div>
+            </div>
+        </div>
+    </li>
+</ol>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="./index.js"></script>
+</body>
+
+</html>
